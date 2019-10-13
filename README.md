@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    Semantic HTML gives your content a meaning which in turn makes the websites you create readable and allows the computer to interrupt it easier. Semantic HTML helps us as developers to keep the code on a readable level, organized and is easier to maintain when interrupting code from other developers.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    display:block; is controlled by the parent element and the content is contained in as much space as the parent will allow, this property will allow the use of height and width and can add in the inline property asd well as the block property, display: inline; on the other hand does not allow the height and width properties to effect its changes, spacing is allowed by the content it contains. We cannot add block elements with in display: inline; properties.
 
 3. What are the 4 areas of the box model?
 
+    from the inside of the box model out: content padding border margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    this property is on the cross axis.
+
 5. Explain why git is valuable to a team of developers.
+
+    git allows a team of developers to work on a project simultaniously and submit the changes with out any neeed to worry about muiltiple copies, changes one developer makes over riding another developrs that is working on the same section because this allows real time access to the changes being made.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -52,13 +62,13 @@ You are expected to be able to answer all these questions. Your responses contri
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
- 
+
 Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your project manager as a reviewer on the pull-request
 - [ ] Your project manager will count the project as complete by merging the branch back into master.
- 
+
 
 
 ## Minimum Viable Product
@@ -100,7 +110,7 @@ In your solution, it is essential that you follow best practices and produce cle
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
-* [ ] Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.  
+* [ ] Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.
 * [ ] Introduce CSS animations to your site.
 * [ ] Build a contact page and create a form with several inputs of your choosing
 * [ ] Add responsive breakpoints to your code by using media queries
