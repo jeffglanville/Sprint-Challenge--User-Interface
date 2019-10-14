@@ -221,3 +221,19 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.about-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 1%;
+    margin-left: .5%;
+    margin-top: 5%;
+}
+
+#about-img {
+    width: 85%;
+    margin-left: 10.5%;
+}
