@@ -241,5 +241,5 @@ footer nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    /* border-bottom: 2px dashed black; */
+    border-bottom: 2px dashed black;
 }
