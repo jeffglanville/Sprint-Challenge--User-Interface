@@ -185,9 +185,8 @@ nav a {
 }
 
 .bottom-content {
-    border: 2px solid red;
     display: flex;
-    /* margin: 0 2% 20px; */
+    margin: 0 2% 20px;
     justify-content: space-around;
     width: 75%;
     margin-left: 15%;
@@ -195,13 +194,13 @@ nav a {
     margin-bottom: 20px;
 }
 
-/* .bottom-content .text-container {
+.bottom-content .text-container {
     padding-right: 4%;
 }
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
-} */
+}
 
 footer {
     width: 100%;
@@ -211,10 +210,11 @@ footer {
 footer nav {
     width: 60%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    margin-left: 6%;
 }
 
 footer nav a {
